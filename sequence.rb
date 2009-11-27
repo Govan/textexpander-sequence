@@ -1,7 +1,7 @@
 require 'rubygems'
 require 'fileutils'
 require 'uuid'
-require File.join(File.dirname(__FILE__), 'sprintf_formatter.rb')
+require File.join(File.dirname(__FILE__), 'formatters', 'formatter.rb')
 
 class Sequence
   
@@ -10,7 +10,7 @@ class Sequence
   attr_accessor :token
   attr_accessor :formatter
   
-  def initialize(token=nil, formatter=SprintfFormatter.new("%d"))
+  def initialize(token=nil, formatter=Formatter.new)
     self.token = token.nil? ? UUID.new.generate : token
     self.formatter = formatter
     restart unless exists?

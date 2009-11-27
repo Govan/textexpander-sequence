@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'shoulda'
-require './sequence.rb'
+require '../sequence.rb'
 
 class SequenceTest < Test::Unit::TestCase    
   
@@ -54,14 +54,3 @@ class SequenceTest < Test::Unit::TestCase
     
   end
 end
-
-
-class SprintfFormatterTest < Test::Unit::TestCase
-  should "format input as sprintf" do
-    input = 500
-    ["%.2f", "%s", "%d"].each do |str|
-      assert_equal sprintf(str, input), SprintfFormatter.new(str).format(input)
-    end
-  end
-end
-
