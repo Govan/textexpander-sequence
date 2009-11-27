@@ -6,11 +6,11 @@ A Snippet and supporting Ruby Scripts for generating sequences via [TextExpander
 This might be a particularly esoteric problem, but bear with me.  I have a particular hatred of typing numbers for lists, for example bullet points, SKU codes, etc.  It's horrible having to 
 type 
 
-1 _~blah, blah~_
-2 _~blah, blah~_
-3 _~blah, blah~_
-....
-99 _~blah, blah~_
+1 _~blah, blah~_  
+2 _~blah, blah~_  
+3 _~blah, blah~_  
+....  
+99 _~blah, blah~_  
 
 Ick.  
 
@@ -54,7 +54,7 @@ number with no transformation.  There are currently two sample Formatters:
 
 To change the formatter you'll have to change the constructor to Sequence in sequence_runner.rb.  For example...
    
-   sequence = Sequence.new(ARGV[0], RomanNumeralFormatter.new)
+	sequence = Sequence.new(ARGV[0], RomanNumeralFormatter.new)
 
 Future Features
 ===============
