@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupInfo</key>
+	<dict>
+		<key>expandAfterMode</key>
+		<integer>0</integer>
+		<key>groupName</key>
+		<string>Sequence</string>
+	</dict>
+	<key>snippetsTE2</key>
+	<array>
+		<dict>
+			<key>abbreviation</key>
+			<string>sqe</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-11-27T10:11:01Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Next in Sequence</string>
+			<key>lastUsed</key>
+			<date>2009-11-27T20:21:19Z</date>
+			<key>modificationDate</key>
+			<date>2009-11-27T20:20:53Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+ruby ~/Tools/TextExpanderScripts/textexpander-sequence/sequence_runner.rb TEXTEXPANDER</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>254</integer>
+			<key>uuidString</key>
+			<string>85738231-6D4F-48D3-A344-4FACC71862F8</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>sqq</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-11-27T10:13:05Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Previous in Sequence</string>
+			<key>lastUsed</key>
+			<date>2009-11-27T20:21:02Z</date>
+			<key>modificationDate</key>
+			<date>2009-11-27T20:20:51Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+ruby ~/Tools/TextExpanderScripts/textexpander-sequence/sequence_runner.rb TEXTEXPANDER previous</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>45</integer>
+			<key>uuidString</key>
+			<string>B1FD4142-1B49-4149-A6A5-7D14D405EB15</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>seqq</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2009-11-27T09:58:06Z</date>
+			<key>flags</key>
+			<integer>2</integer>
+			<key>label</key>
+			<string>Start new Sequence</string>
+			<key>lastUsed</key>
+			<date>2009-11-27T20:20:57Z</date>
+			<key>modificationDate</key>
+			<date>2009-11-27T20:20:15Z</date>
+			<key>plainText</key>
+			<string>#!/bin/bash
+ruby ~/Tools/TextExpanderScripts/textexpander-sequence/sequence_runner.rb TEXTEXPANDER restart</string>
+			<key>snippetType</key>
+			<integer>3</integer>
+			<key>useCount</key>
+			<integer>29</integer>
+			<key>uuidString</key>
+			<string>34E5DBBB-8FEE-4998-8864-A38AFB97DE1B</string>
+		</dict>
+	</array>
+</dict>
+</plist>
