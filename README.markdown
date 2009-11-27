@@ -32,9 +32,8 @@ Usage
 In any application type:
 
 *   "seqq" to start a new sequence and insert its first element.
-*   "sqe" to insert the next item in the sequence.
-*   "sqq" to insert the previous item in the sequence.
-
+*   "sdd" to insert the next item in the sequence.
+*   "saa" to insert the previous item in the sequence.
 
 Reuse
 ============
